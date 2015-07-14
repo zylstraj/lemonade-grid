@@ -1,0 +1,115 @@
+/* Meyer Web Reset : ; */
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+ font-family: 'Montserrat';
+ src: url('../fonts/montserrat/Montserrat-Bold.otf');
+ src: local('Montserrat Bold'),
+      url('../fonts/montserrat/Montserrat-Bold.otf') format('truetype'),
+      url('../fonts/montserrat/Montserrat-Bold.eot') format('embedded-opentype');
+ font-weight: 700;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'Montserrat';
+ src: url('../fonts/montserrat/Montserrat-Regular.otf');
+ src: local('Montserrat Regular'),
+      url('../fonts/montserrat/Montserrat-Regular.otf') format('truetype'),
+      url('../fonts/montserrat/Montserrat-Regular.eot') format('embedded-opentype');
+ font-weight: 400;
+ font-style: normal;
+}
+@font-face {
+ font-family: 'Montserrat';
+ src: url('../fonts/montserrat/Montserrat-UltraLight.otf');
+ src: local('Montserrat UltraLight'),
+      url('../fonts/montserrat/Montserrat-UltraLight.otf') format('truetype'),
+      url('../fonts/montserrat/Montserrat-UltraLight.eot') format('embedded-opentype');
+ font-weight: 300;
+ font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/montserrat/Montserrat-Light.otf');
+  src: local('Montserrat Light'),
+      url('../fonts/montserrat/Montserrat-Light.otf') format('truetype'),
+      url('../fonts/montserrat/Montserrat-Light.eot') format('embedded-opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+/* Font Family Shit */
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand/Quicksand-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand/Quicksand-Italic.otf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand/Quicksand-Bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/quicksand/Quicksand-BoldItalic.otf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+body {
+  font-size: 1em;
+}

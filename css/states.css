@@ -1,0 +1,49 @@
+@media (max-width: 37.5em) {
+.index_welcome_h1 {
+  font-size: 2.5em;
+  margin-top: 2em;
+}
+/* CSS Hamburger Button */
+
+.menu-btn div {
+  position: absolute;
+  right: 100%;
+  top: 64%;
+  margin-top: -0.50em;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 200;
+  vertical-align: middle;
+  z-index: 99;
+  text-align: right;
+  }
+
+.menu-btn span {
+  display: block;
+  width: 19px;
+  height: 3px;
+  margin: 4px 0;
+  background: rgb(0,0,0);
+  z-index: 99;
+  text-align: right;
+}
+.responsive-menu{
+  display: none;
+}
+.expand {
+  display: block !important;
+}
+}
+
+.index_nav_links a:visited {
+  color: black;
+}
+.index_nav_links a:hover {
+  color: orange;
+}
+.index_welcome_plink a:hover {
+color: orange
+}
+.index_contact_plink a:hover {
+  color: orange;
+}

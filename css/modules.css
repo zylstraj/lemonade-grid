@@ -1,0 +1,94 @@
+.index_header_h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  padding: 1em 0 1em .5em;
+  text-transform: uppercase;
+  font-weight: 200;
+}
+.index_nav_links {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 200;
+  text-align: right;
+}
+.index_nav_links a {
+  text-decoration: none;
+}
+/* Index Welcome - - Organized fairly poorly right now
+Needs to definitely be more modular, which I'll get to */
+.index_welcome  {
+  background: url(../images/Splash_1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.index_welcome_h1 {
+  font-size: 3.5em;
+  color: #fff;
+  text-align: center;
+  margin-top: 1em;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+.index_welcome_plink {
+  margin: 5em auto 8em auto;
+  text-align: center;
+}
+.index_welcome_plink a {
+  font-size: 5em;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+}
+/* Index Contact - - Organized fairly poorly right now
+Needs to definitely be more modular, which I'll get to */
+
+.index_contact  {
+  background: url(../images/Splash_2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.index_contact_h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+  margin: 2em auto;
+  letter-spacing: .05em;
+}
+.index_contact_link {
+  background-color: #808080;
+}
+.index_contact_plink {
+  margin: 3.5em auto;
+  text-align: center;
+}
+.index_contact_plink a {
+  font-size: 2.5em;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+/* Footer Styling */
+.index_footer {
+  background-color: #808080;
+}
+.footer_text {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: 1.5em auto;
+  font-weight: 200;
+  letter-spacing: .05em;
+}
