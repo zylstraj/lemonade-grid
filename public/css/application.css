@@ -224,16 +224,13 @@ body {
 
 @media (max-width: 30em) {
   .menu-btn div {
-    position: absolute;
-    right: 100%;
     top: 64%;
     margin-top: -0.50em;
     line-height: 1.2;
     font-size: 18px;
     font-weight: 200;
     vertical-align: middle;
-    z-index: 99;
-    text-align: right; }
+    z-index: 99; }
   .menu-btn span {
     display: block;
     width: 19px;
