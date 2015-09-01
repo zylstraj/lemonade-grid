@@ -1,0 +1,16 @@
+$primary_font: 'Bellaboo', sans-serif;
+$secondary_font: 'Quicksand', sans-serif;
+$index_main_color: #fff;
+$hover_color: orange;
+
+@mixin basic_stuff {
+ font-family: $primary_font;
+ text-transform: uppercase;
+ letter-spacing: .05em;
+}
+@mixin background-size($x: cover) {
+  -webkit-background-size: $x;
+  -moz-background-size: $x;
+  -o-background-size: $x;
+  background-size: $x;
+}

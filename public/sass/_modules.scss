@@ -1,0 +1,102 @@
+.index_header_h1 {
+  @include basic_stuff;
+  font-size: 2em;
+  padding: 1em 0 1em .5em;
+}
+.index_nav_links {
+  @include basic_stuff;
+  font-size: 1.5em;
+  text-align: right;
+    a {
+  text-decoration: none;
+      &:hover {
+        color: $hover_color;
+      }
+      &:visited {
+        color: black;
+      }
+  }
+}
+// Index Welcome Refers To the Shop Section on home page
+// Background Image and area to click and link it to shop
+.index_welcome {
+  background: url(../../images/Splash_1.jpg) no-repeat center center fixed;
+  @include background-size;
+}
+.index_welcome_h1 {
+  @include basic_stuff;
+  font-size: 8em;
+  color: $index_main_color;
+  text-align: center;
+  margin-top: .5em;
+  @media (max-width: 30em) {
+  font-size: 6em;
+}
+}
+.index_welcome_plink {
+  @include basic_stuff;
+  margin: 2em auto 6em auto;
+  text-align: center;
+   a {
+  font-size: 6em;
+  color: $index_main_color;
+  text-decoration: none;
+  &:hover {
+    color: $hover_color;
+    }
+  }
+}
+//Contact Section: Section on the Index Page
+.index_contact_link {
+  background-color: #808080;
+}
+.index_contact {
+  background: url(../../images/Splash_2.jpg) no-repeat center center fixed;
+  @include background-size;
+}
+@mixin basic_stuff {
+ font-family: $primary_font;
+ text-transform: uppercase;
+ font-weight: 200;
+}
+.index_contact_h1 {
+  @include basic_stuff;
+  font-family: $primary_font;
+  font-size: 2em;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+  margin: 1em auto;
+  letter-spacing: .05em;
+}
+.index_contact_plink {
+  margin: 3.5em auto;
+  text-align: center;
+    a {
+  font-family: 'Bellaboo', sans-serif;
+  font-size: 2.5em;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  &:hover {
+    color: $hover_color;
+    }
+  }
+}
+
+// Footer
+
+.index_footer {
+  background-color: #808080;
+}
+.footer_text {
+  font-family: $primary_font;
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: 1.5em auto;
+  font-weight: 200;
+  letter-spacing: .15em;
+}

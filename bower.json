@@ -1,0 +1,9 @@
+{
+  "name": "yes",
+  "version": "yes",
+  "homepage": "https://github.com/zylstraj/lemonade-grid",
+  "authors": [
+    "Josh Zylstra <zylstrajosh@gmail.com>"
+  ],
+  "license": "MIT"
+}
